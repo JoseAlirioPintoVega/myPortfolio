@@ -1,0 +1,20 @@
+#Contact{
+    max-width: 1200px;
+    padding: 2rem;
+}
+.title__contact{
+    font-size: 40px;
+}
+.description__contact{
+    font-size: 20px;
+}
+.container__contact{
+    display: flex;
+    justify-content: center;
+    gap: 2rem;
+    margin: 2rem;
+}
+.container__contact a{
+    color: blue;
+    font-size: 3rem;
+}

@@ -1,0 +1,44 @@
+.container__projects{
+    margin: 2rem;
+   display: grid;
+   grid-template-columns: repeat(auto-fit,minmax(250px, 1fr));
+   gap: 1rem;
+}
+.container__project{
+    margin: auto;
+ max-width: 250px;
+}
+.title__project a{
+    color: black;
+
+}
+.container-img{
+    width: 200px;
+    height: 230px;
+    padding: 1rem;
+}
+.container-img img{
+    width: 100%;
+    height: 100%;
+}
+.container-view__project{
+    display: flex;
+    justify-content: space-around;
+     max-width: 200px;
+}
+.see__project{
+    color: blue;
+}
+.seeCode__project{
+    color: blue;
+}
+@media (min-width: 750px){
+    .container__projects{
+        margin: auto;
+       display: grid;
+       grid-template-columns: repeat(auto-fit,minmax(300px, 1fr));
+    }
+    .container__project{
+        max-width: 250px;
+       }
+}
