@@ -27,9 +27,10 @@
     font-weight: 600;
 }
 .description__aboutme{
-    line-height: 22px;
+    line-height: 30px;
     font-size: 18px;
     font-weight: 400;
+    text-align: justify ;
 }
 .btn__cv{
     width: 200px;

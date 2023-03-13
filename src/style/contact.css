@@ -1,6 +1,7 @@
 #Contact{
     max-width: 1200px;
     padding: 2rem;
+    margin: auto;
 }
 .title__contact{
     font-size: 40px;

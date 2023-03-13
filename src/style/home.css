@@ -26,6 +26,10 @@
     border-radius: 50%;
     overflow: hidden;
 }
+.img-container__home img{
+    height: 200px;
+    width: 170px;
+}
 .name, .title{
     color:white
 }
@@ -44,5 +48,9 @@
     .title{
         color:rgb(255, 255, 255);
         font-size: 40px;
+    }
+    .img-container__home img{
+        height: 200px;
+        width: 170px;
     }
 }

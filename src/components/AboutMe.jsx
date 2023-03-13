@@ -4,15 +4,15 @@ import "../style/aboutme.css";
 
 const AboutMe = () => {
   const skills = [
-    "../../public/html.png",
-    "../../public/css.png",
-    "../../public/javaScript.png",
-    "../../public/react.png",
-    "../../public/tailwind.png",
-    "../../public/nodejs.png",
-    "../../public/postgresSQL.png",
-    "../../public/git.png",
-    "../../public/gitHub.png",
+    "../../html.png",
+    "../../css.png",
+    "../../javaScript.png",
+    "../../react.png",
+    "../../tailwind.png",
+    "../../nodejs.png",
+    "../../postgresSQL.png",
+    "../../git.png",
+    "../../gitHub.png",
   ];
   return (
     <div className="container__aboutme" id="Aboutme">
@@ -23,10 +23,15 @@ const AboutMe = () => {
             Apple Developer / Engineering Physicst.
           </h4>
           <p className="description__aboutme">
-            Lorem, ipsum dolor sit amet consectetur adipisicing elit. Quisquam
-            perspiciatis suscipit laboriosam, laborum dolore aut quia recusandae
-            quis ab tempora natus magnam? Quis corporis soluta ratione
-            assumenda, velit est ducimus.
+            I am a programmer specialized in the JavaScript language. For
+            several years now, I have been working on web projects that use
+            technologies such as React, Node.js, Express, and PostgresSQL, among
+            others. I am passionate about software development and I love
+            constantly learning new technologies and tools to improve my work
+            and stay up-to-date with market trends. In this portfolio, you will
+            find some of the projects I have worked on, along with details about
+            my experience and skills. I hope you enjoy exploring my work and
+            find something that inspires you in your own projects.
           </p>
           <button className="btn__cv">
             <BsCloudDownload /> Dowload CV
