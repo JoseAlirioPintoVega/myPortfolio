@@ -7,7 +7,7 @@ const Nav = () => {
 
   return (
     <nav className="container__nav">
-      <h5 className="logo">logo</h5>
+      <h5 className="logo"></h5>
       <div className="menu__nav">
         <div className="hamburger-menu__nav">
           <GiHamburgerMenu

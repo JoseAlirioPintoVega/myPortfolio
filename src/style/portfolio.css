@@ -4,21 +4,24 @@
     margin: auto;
     max-width: 1200px;
     padding: 2rem;
-    gap: 1rem
+    gap: 1rem;
+    background-color: black;
 }
 .title__portfolio{
     font-size: 40px;
     font-weight: 600;
+    color: white;
 }
 .text__portfolio{
     font-size: 20px;
     padding-left: 2rem;
+    color: white;
     
 }
 .link-complete__portfolio a{
-    color: black;
+    color: rgb(255, 255, 255);
     cursor: pointer;
 }
 .container__portfolio{
-    padding: 2rem;
+    padding: 1rem;
 }

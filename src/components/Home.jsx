@@ -9,7 +9,7 @@ const Home = () => {
       </div>
       <div className="container-text__home">
         <h1 className="name">Jose Alirio Pinto</h1>
-        <h2 className="title">fullStack Developer</h2>
+        <h2 className="title">FullStack Developer</h2>
       </div>
     </div>
   );
